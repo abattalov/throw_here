@@ -29,7 +29,12 @@ class ThrowHere::CLI
 
     def get_user_state
         chosen_state = gets.strip.to_i
-        show_courses_for(chosen_state) if valid_input(chosen_state, @states)
+        if valid_input(chosen_state, @states) == true
+            show_courses_for(chosen_state) 
+        else
+            puts "Please enter a number between 1 and 50."
+            get_user_state
+        end
     end
 
     def valid_input(input, data)

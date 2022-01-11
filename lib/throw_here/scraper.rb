@@ -41,12 +41,29 @@ class Scraper
                 counter += 1
                 # puts course.name
             end
-            page += 1
-            puts "parsed all info on #{page}"
 
+            page += 1
+            # Thread.new {spinner()}
+            puts "parsed all info on #{page}"
+            
         end
 
     end
+
+    # def spinner
+    #     spinner = Enumerator.new do |e|
+    #         loop do
+    #           e.yield '|'
+    #           e.yield '/'
+    #           e.yield '-'
+    #           e.yield '\\'
+    #         end
+    #       end
+    #       1.upto(100) do |i|
+    #         printf("\rSearching: %s", spinner.next)
+    #         sleep(0.1)
+    #       end
+    # end
         
 end
 
