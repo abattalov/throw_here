@@ -36,7 +36,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "pry"
   spec.add_dependency "nokogiri"
-  spex.add_dependency "open-uri"
+  spec.add_dependency "open-uri"
+  spec.add_dependency "progress_bar"
+
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
