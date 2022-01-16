@@ -1,6 +1,6 @@
 class Course
 
-    attr_accessor :name, :city, :state, :postal_code, :num_of_holes
+    attr_accessor :name, :city, :state, :num_of_holes
 
     @@all = []
 
