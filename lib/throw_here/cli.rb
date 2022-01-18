@@ -1,7 +1,7 @@
 class ThrowHere::CLI
 
     def call
-        Scraper.new
+        ThrowHere::Scraper.new
         start
         over?
     end
@@ -35,7 +35,7 @@ class ThrowHere::CLI
     end
 
     def print_courses
-        Course.all.each do |course|
+        ThrowHere::Course.all.each do |course|
             if @state == course.state
                 puts "State: #{course.state}."
                 puts "Course name: #{course.name}."

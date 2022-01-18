@@ -5,7 +5,7 @@ require 'progress_bar'
 
 require_relative './course.rb'
 
-class Scraper
+class ThrowHere::Scraper
 
     def scrape_page
         get_index_page_info
@@ -52,7 +52,7 @@ class Scraper
 
     def get_course_details
         @name.each do |listing|
-        course = Course.new
+        course = ThrowHere::Course.new
         course.name = @name[@counter].css('a').text.strip
         course.city = @city[@counter].text.strip
         course.state = @state[@counter].text.strip
@@ -64,4 +64,4 @@ class Scraper
     end
 end
 
-Scraper.new.scrape_page
+ThrowHere::Scraper.new.scrape_page

@@ -1,4 +1,4 @@
-class Course
+class ThrowHere::Course
 
     attr_accessor :name, :city, :state, :num_of_holes
 

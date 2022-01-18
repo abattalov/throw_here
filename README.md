@@ -1,22 +1,14 @@
 # ThrowHere
 
-This Ruby Gem provides a CLI that gives information on the disc golf courses in the United States as listed on the Professional Disc Golf Association (PDGA) website.
+This is a CLI app that gives information on the disc golf courses in the United States as listed on the Professional Disc Golf Association (PDGA) website.
 
 ## Installation
+To use this app, clone down this repo and run:
+- 'cd throw_here'
+- 'bundle install'
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'throw_here'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install throw_here
+To start the CLI app run
+- 'bin/throw_here'
 
 ## Usage
 
