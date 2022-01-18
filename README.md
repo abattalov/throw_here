@@ -1,6 +1,6 @@
 # ThrowHere
 
-This program helps you find disc golf courses near you!
+This Ruby Gem provides a CLI that gives information on the disc golf courses in the United States as listed on the Professional Disc Golf Association (PDGA) website.
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Start the program in the command line and follow the on screen prompts.
 
 ## Development
 
@@ -30,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/throw_here. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/throw_here/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/[abattalov]/throw_here. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[abattalov]/throw_here/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -38,4 +38,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the ThrowHere project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/throw_here/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the ThrowHere project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/abattalov/throw_here/blob/master/CODE_OF_CONDUCT.md).

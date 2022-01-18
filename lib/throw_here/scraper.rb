@@ -47,8 +47,6 @@ class Scraper
 
             sleep 0.1
             bar.increment! @page
-            # print "parsed all info on #{@page}"
-
         end
     end
 
