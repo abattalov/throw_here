@@ -47,8 +47,7 @@ class ThrowHere::CLI
     end
 
     def start
-        puts "\nWelcome to Throw Here!"
-        puts "\n"
+        puts " "
         print_states
         puts "\nChoose a state by pressing the state's corresponding number. (Example: Press '1' for Alabama, Press '50' for Wyoming.)"
         get_user_state
