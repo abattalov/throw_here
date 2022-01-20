@@ -1,9 +1,19 @@
+require 'pry'
+
 class ThrowHere::CLI
 
     def call
-        ThrowHere::Scraper.new
+        intro
+        ThrowHere::Scraper.new.scrape_page
         start
         over?
+    end
+    
+    def intro
+        puts "\nWelcome to Throw Here!"
+        puts "\n"
+        puts "Please wait while we search the internet for the most up to date info on Disc Golf Courses!"
+        puts "\n"
     end
     
     def print_states
